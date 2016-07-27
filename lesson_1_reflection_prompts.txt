@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It made it relatively easy to spot the typo because there were not many
+	differences between the two files. Also, because for each difference the lines of both files
+	containing the differences are displayed one below the other, I could see and compare these
+	lines easily without scrolling or so.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having all versions of each file makes it possible to revert to an older version
+	of a file or program consisting of multiple files.
+	It also makes it possible to determine at wich point in time a bug has been introduced.
+	If commits are being done task-oriented, it is possible to determine which task
+	has introduced a certain bug.
+	Learning from your own history of a file and all bugs and faults you made can help you
+	bringing more structure to your work in future.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+		- Logical work units are committed
+		- Number of changes is about right to be comprehensible
+	Cons:
+		- Automatical saves can save you work, if for some reason you lose or corrupt files you worked on
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    For many uses of a version control system it is necessary to be able to change
+	multiple files and track these changes as one logical change. Therefore Git and other
+	version control systems provide this functionality.
+	Others have another focus. In case of Google Docs, the main functionality is editing of
+	documents by multiple users concurrently without a complex usage.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    "git log" displays information about the commits in the repository, including their IDs.
+	"git diff" is used to display the differences between two commits, whose IDs have to be given
+	as parameters: git diff <ID of older commit> <ID of newer commit>
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can go back to any commit by using "git checkout <id of the commit>" and find out where the bug or problem has been introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git for private software development projects.

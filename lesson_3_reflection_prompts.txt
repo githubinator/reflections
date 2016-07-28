@@ -17,4 +17,6 @@ Describe the differences between forks, clones, and branches. When would you use
     A branch is a path of development inside a repository, which originates in a certain commit.
     It should be used for different developments inside a repository.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
+    ?
